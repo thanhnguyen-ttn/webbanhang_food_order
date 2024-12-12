@@ -8,8 +8,14 @@
 
 ### Hình ảnh giao diện
 
-![Alt text](./assets/img/screen.jpeg)
+![Alt text](./assets/img/img-github/screen.jpeg)
 <h4 align="center">Trang chủ</h4>
+
+![Alt text](./assets/img/img-github/chup_man_hinh.jpeg)
+<h4 align="center">Đầu trang</h4>
+
+![Alt text](./assets/img/img-github/chup_man_hinh_1.jpeg)
+<h4 align="center">Thân trang</h4>
 
 ![Alt text](./assets/img/img-github/admin-product.jpeg)
 <h4 align="center">Chi tiết sản phẩm</h4>
@@ -22,4 +28,8 @@
 
 ![Alt text](./assets/img/img-github/admin-product.jpeg)
 <h4 align="center">Quản lý sản phẩm</h4>
+
+![Alt text](./assets/img/img-github/trangthaidonhang.jpeg)
+<h4 align="center">Quản lý sản phẩm</h4>
+
 =======
