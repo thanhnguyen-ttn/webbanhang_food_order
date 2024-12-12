@@ -1,5 +1,5 @@
 
-# Đồ án môn lập trình web và ứng dụng
+# Đồ án môn lập trình web bán hàng - food order
 
 ### Tài khoản Admin
 
@@ -30,6 +30,6 @@
 <h4 align="center">Quản lý sản phẩm</h4>
 
 ![Alt text](./assets/img/img-github/trangthaidonhang.png)
-<h4 align="center">Quản lý sản phẩm</h4>
+<h4 align="center">Trạng thái đơn hàng</h4>
 
 =======
