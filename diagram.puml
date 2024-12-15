@@ -1,0 +1,20 @@
+@startuml
+actor User as "người dùng"  // Người tương tác với hệ thống
+participant "Frontend" as FE             // Frontend của hệ thống
+participant "Backend" as BE              // Backend của hệ thống
+database "Database" as DB                // Cơ sở dữ liệu (DB)
+
+User -> FE: Gửi thông tin (ví dụ: email, mật khẩu)    // Người dùng gửi thông tin đến Frontend
+FE -> BE: Gửi yêu cầu đăng nhập                      // Frontend chuyển yêu cầu đến Backend
+BE -> DB: Truy vấn thông tin từ cơ sở dữ liệu        // Backend yêu cầu dữ liệu từ Database
+DB --> BE: Trả kết quả truy vấn                      // Database gửi kết quả cho Backend
+
+alt Đăng nhập thành công                             // Nhánh logic: thành công
+    BE -> FE: Trả JWT Token                          // Backend gửi token đến Frontend
+    FE -> User: Hiển thị thông báo thành công        // Frontend thông báo cho người dùng
+else Đăng nhập thất bại                              // Nhánh logic: thất bại
+    BE -> FE: Trả thông báo lỗi                      // Backend gửi thông báo lỗi đến Frontend
+    FE -> User: Hiển thị thông báo lỗi              // Frontend thông báo lỗi cho người dùng
+end
+
+@enduml
